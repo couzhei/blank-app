@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# :chart: Real Time Crypto Dashboard 
 
 A simple Streamlit app template for you to modify!
 
