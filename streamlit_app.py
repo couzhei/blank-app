@@ -7,9 +7,9 @@ from binance.spot import Spot
 from datetime import datetime, timedelta
 import os
 
+# Load environment variables
 BINANCE_API_KEY=os.getenv("BINANCE_API_KEY")
 BINANCE_SECRET_KEY=os.getenv("BINANCE_SECRET_KEY")
-
 
 # Function to fetch historical data from Binance
 def get_historical_klines(interval: str = "1d", limit: int = 252 * 2, symbol: str = "BTCUSDT") -> pd.DataFrame:
